@@ -3,7 +3,7 @@ box-sizing: border-box;
 }
 
 body {
-    background-color: white;
+    background-color: #88CCF1;
     
 }
 
@@ -13,9 +13,10 @@ ul li {
     cursor: pointer;
     position: relative;
     padding: 12px 8px 12px 40px;
-    background: #eee;
+    background: #C1DFF0;
     font-size: 18px;
     transition: 0.2s;
+    list-style-type: none;
 
 
 -webkit-user-select: none;
@@ -25,11 +26,11 @@ user-select: none;
 }
 /* Hover taustaväri */
     ul li:hover {
-        background: #ddd;
+        background: #2D898B;
     }
 /* Tehtävä tehty tyylit*/
     ul li.tehty {
-        background: #888;
+        background: #2D848A;
         color: #fff;
         text-decoration: line-through;    
     }
@@ -56,7 +57,7 @@ ul li.tehty::before {
   }
 
   .close:hover {
-    background-color: #dfb8b5;
+    background-color: #be5a53;
     color: white;
   }
 
@@ -65,7 +66,7 @@ input {
     margin: 0;
     border: none;
     border-radius: 0;
-    width: 55%;
+    width: 75%;
     padding: 10px;
     float: left;
     font-size: 16px;
@@ -75,12 +76,13 @@ input {
 .addBtn {
     padding: 10px;
     width: 25%;
-    background: #d9d9d9;
-    color: #555;
+    background: #88CCF1;
+    color: rgb(0, 0, 0);
     float: left;
     text-align: center;
     font-size: 16px;
-    cursor: pointer;
+    font-weight: bold;
+    cursor: cell;
     transition: 0.3s;
     border-radius: 0;
   }
@@ -91,9 +93,9 @@ input {
 
  /* Otsikon tyyli */ 
   .otsikko {
-    background-color: #2d9497;
+    background-color: #3587A4;
     padding: 30px 40px;
-    color: white;
+    color: rgb(3, 3, 3);
     text-align: center;
   }
 
